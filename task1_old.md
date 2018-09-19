@@ -1,5 +1,3 @@
-# Data types
-
 Lets start with the traditional `hello world` program.
 In python this couldn't be simpler. Type
 

@@ -31,7 +31,7 @@
                 <option name="customPresentableName" />
                 <option name="id" value="0" />
                 <option name="index" value="1" />
-                <option name="name" value="DataTypes1" />
+                <option name="name" value="Basic Concepts" />
                 <option name="stepikChangeStatus" value="Up to date" />
                 <option name="updateDate" value="0" />
                 <option name="taskList">
@@ -42,7 +42,7 @@
                       </option>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="MD" />
-                      <option name="descriptionText" value="# Data types&#10;&#10;Lets start with the traditional `hello world` program.&#10;In python this couldn't be simpler. Type&#10;&#10;`print(&quot;hello world&quot;)`&#10;&#10;and then click run.&#10;&#10;`print()` is a *function*, and this is indicated in python by the parentheses. We will come to functions later but essentially they perform a task using the information or 'argument' supplied in the parentheses. Notice that it doesn't actually print anything just sends output to the screen.&#10;&#10;`hello world` is a *data type* called a *string* or *str* which stands for&#10; a string of characters.  Characters are just letters or numbers or&#10; punctuation marks - things corresponding to keys on your keyboard.&#10; In python, strings and characters are identified by placing them in quotation marks, but the quotation marks themselves don't print.&#10;&#10;Predict the output of the following code&#10;&#10;&#10;Different data types can be used in different ways so it is important to know what data types you are using. You can use the function type() to determine an object's data type.&#10;&#10;Predict the output of the following code&#10;&#10;print(type(901))&#10;&#10;print(type('twas brillig and the slithy toves'))&#10;&#10;print(type(3.14159))&#10;&#10;print(type(True))&#10;&#10;Run the script to check your prediction.&#10;&#10;Note: in this example we are nesting a function within a function.  We use the type() funtion to tell what the data type of each object is, then we use the print() function to show the result.&#10;&#10;Variables&#10;Most programming tasks involve the manipulation of variables, which are names that refer to a value, but this value can change&#10;&#10;Predict the output of the following code&#10;&#10;msg = 'Hello World'&#10;&#10;print(msg)&#10;&#10;print(type(msg))&#10;&#10;Run the script to check your prediction.&#10;&#10;In this example whenever you use the variable message it is exactly equivalent to using the string 'Hello World'.&#10;&#10;Predict the output of the following code&#10;&#10;n = 2&#10;&#10;n = 2 * n&#10;&#10;print(n)&#10;&#10;Run the script to check your prediction.&#10;&#10;Here we assign a variable, then we manipulate it  by multiplying by 2 before sending it to the print function. What differences do you predict would occur if you started the sequence above with the assignment statement&#10;&#10;n = 2.5&#10;&#10;Try it!&#10;&#10;Numerical Operators&#10;In the example above we used the operator * to multiply n by 2.  Other operands used by Python are:&#10;&#10;    + for addition&#10;    - for subtraction&#10;    / for division&#10;    ** for exponentiation.&#10;    % for remainder or modulo&#10;&#10;&#10;For example the statement 2**3 evaluates to 8 which is 2 cubed (2 raised to the power of 3).&#10;&#10;Predict the output of the following code&#10;&#10;i = 5&#10;&#10;j = 2&#10;&#10;&#10;print(i + j)&#10;&#10;print(i - j)&#10;&#10;print(i * j)&#10;&#10;print(i / j)&#10;&#10;print(i**j)&#10;&#10;print(i % j)&#10;&#10;Run the script to check your prediction.&#10;&#10;When more than one operator appears in a statement, Python uses the normal rules of mathematical precedence PEDMAS. Parentheses Exponentiation Division &amp; Multiplication Addition &amp; Subtraction.&#10;&#10;&#10;Predict the output of the following code&#10;&#10;print(6 + 4 / 2)&#10;&#10;Run the script to check your prediction.&#10;&#10;String Operators&#10;You cannot perform mathematical operations on strings, but there are two string operators.&#10;&#10;    + for concatenation or joining together&#10;    * for repetition&#10;&#10;&#10;Predict the output of the following code&#10;&#10;str = 'Spam ' #note the space after the word&#10;&#10;str = str + str&#10;&#10;print(str)&#10;&#10;str = str * 3&#10;&#10;print(str)&#10;&#10;Run the script to check your prediction.&#10;&#10;Variable Names&#10;You should take the time to make your variable names meaningful so that you or anyone else reading you code can easily determine what the variable refers to. For example, if you wanted a variable to refer to a customers address it should have a name something like customerAddress. Notice that by convention the variable name starts with a lower case letter, and upper case letters are used to indicate a new word. This type of naming is called 'camel case'.&#10;&#10;Variable names cannot contain spaces. Variable names can be arbitrarily long. They can contain both letters and numbers, but they have to begin with a letter.&#10;&#10;Keywords&#10;Variable names cannot be one of Python’s keywords. The interpreter uses keywords to recognise the structure of the program, and they cannot be used as variable names.&#10;&#10;To see all of Python's keywords import the module keywords then use the command&#10; then at the help prompt type keywords. To leave the help function type quit.&#10;&#10;keyword.iskeyword(s) which will return True if s is a Python keyword.&#10;&#10;keyword.kwlist will return a list containing all the keywords defined for the interpreter.&#10;&#10;Try this code:&#10;&#10;import keyword&#10;&#10;&#10;print(keyword.iskeyword(&quot;class&quot;))&#10;&#10;&#10;print(keyword.kwlist)&#10;&#10;&#10;To see what happens if you try to assign a keyword to a variable name type&#10;&#10;class = &quot;Year 11 SDD&quot;&#10;&#10;&#10;&#10;&lt;/html&gt;&#10;" />
+                      <option name="descriptionText" value="# Data types&#10;Computers are essentially machines for manipulating information or 'data'&#10;&#10;Basic data types include:&#10;&#10;* integer or `int` - counting numbers such as 42, 5, -33 etc&#10;* floating point or `float` - numbers with a decimal point such as 3.14.&#10;Also called real numbers&#10;* string or `str` - which are combinations of letters or other keyboard characters.&#10;Strings are usially enclosed in quotation marks such as `&quot;Hello World&quot;`&#10;* boolean or `bool` - which just hold the values `True` or `False`.&#10;&#10;There are also more complex data types such as arrays and records&#10;but we will come to them later.&#10;&#10;&gt; Replace the placeholders the template (type over them don't delete them)&#10;to create a program that prints outs an integer, a float, a string and a boolean.&#10;&#10;Remember only strings are enclosed in quotation marks. If you enclose any&#10;of the other types in quotation marks they will become strings.&#10;&#10;If you get a syntax error it means the instruction was written wrongly.&#10;Look for something that is underlined with a red squiggly line.&#10;&#10;And remember python is case sensitive so capitalisation&#10; matters in words like `True`.&#10;&#10;&#10;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -50,51 +50,7 @@
                         </FeedbackLink>
                       </option>
                       <option name="index" value="1" />
-                      <option name="name" value="Strings" />
-                      <option name="status" value="Solved" />
-                      <option name="stepId" value="0" />
-                      <option name="stepikChangeStatus" value="Up to date" />
-                      <option name="testsText">
-                        <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
-                        </map>
-                      </option>
-                      <option name="updateDate" value="0" />
-                      <option name="taskFiles">
-                        <map>
-                          <entry key="task.py">
-                            <value>
-                              <TaskFile>
-                                <option name="answerPlaceholders">
-                                  <list />
-                                </option>
-                                <option name="highlightErrors" value="true" />
-                                <option name="trackChanges" value="true" />
-                                <option name="trackLengths" value="true" />
-                                <option name="userCreated" value="false" />
-                                <option name="name" value="task.py" />
-                                <option name="text" value="# TODO: type solution here&#10;" />
-                              </TaskFile>
-                            </value>
-                          </entry>
-                        </map>
-                      </option>
-                    </EduTask>
-                    <EduTask>
-                      <option name="additionalFiles">
-                        <map />
-                      </option>
-                      <option name="customPresentableName" />
-                      <option name="descriptionFormat" value="MD" />
-                      <option name="descriptionText" value="Other data types we will use include:&#10;&#10;* integer or `int` - counting numbers such as 42, 5, -33 etc&#10;* floating point or `float` - numbers with a decimal point such as 3.14&#10;* boolean or `bool` - which just hold the values `True` or `False`.&#10;&#10;There are also more complex data types such as arrays and records but we will come to them later.&#10;&#10;&gt; Create a program that prints outs an integer, then prints out a float then prints out a bool.&#10;&#10;Remember none of these data types is enclosed in quotation marks.&#10;&#10;If you get a syntax error it means the instruction was written wrongly.&#10;Look for something that is underlined with a red squiggly line.&#10;And remember python is case sensitive so capitalisatin matters in words like `True`.&#10;" />
-                      <option name="feedbackLink">
-                        <FeedbackLink>
-                          <option name="link" />
-                          <option name="type" value="STEPIK" />
-                        </FeedbackLink>
-                      </option>
-                      <option name="index" value="2" />
-                      <option name="name" value="Int, Float and Bool" />
+                      <option name="name" value="Basic Data Types" />
                       <option name="status" value="Solved" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
@@ -114,16 +70,16 @@
                                     <AnswerPlaceholder>
                                       <option name="hints">
                                         <list>
-                                          <option value="type an integer value here" />
+                                          <option value="An integer is a whole or counting number." />
                                         </list>
                                       </option>
                                       <option name="index" value="0" />
                                       <option name="initialState" />
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="3" />
-                                      <option name="offset" value="6" />
+                                      <option name="length" value="20" />
+                                      <option name="offset" value="48" />
                                       <option name="placeholderDependency" />
-                                      <option name="placeholderText" value="int" />
+                                      <option name="placeholderText" value="type an integer here" />
                                       <option name="possibleAnswer" value="42" />
                                       <option name="selected" value="false" />
                                       <option name="status" value="Solved" />
@@ -133,16 +89,16 @@
                                     <AnswerPlaceholder>
                                       <option name="hints">
                                         <list>
-                                          <option value="type a float value here" />
+                                          <option value="a float is a real or floating point number. It must have a decimal point." />
                                         </list>
                                       </option>
                                       <option name="index" value="1" />
                                       <option name="initialState" />
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="5" />
-                                      <option name="offset" value="21" />
+                                      <option name="length" value="17" />
+                                      <option name="offset" value="72" />
                                       <option name="placeholderDependency" />
-                                      <option name="placeholderText" value="float" />
+                                      <option name="placeholderText" value="type a float here" />
                                       <option name="possibleAnswer" value="3.1415" />
                                       <option name="selected" value="false" />
                                       <option name="status" value="Solved" />
@@ -152,16 +108,35 @@
                                     <AnswerPlaceholder>
                                       <option name="hints">
                                         <list>
-                                          <option value="Type a bool value here" />
+                                          <option value="Don't forget the quotes." />
                                         </list>
                                       </option>
                                       <option name="index" value="2" />
                                       <option name="initialState" />
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="4" />
-                                      <option name="offset" value="42" />
+                                      <option name="length" value="18" />
+                                      <option name="offset" value="101" />
                                       <option name="placeholderDependency" />
-                                      <option name="placeholderText" value="bool" />
+                                      <option name="placeholderText" value="type a string here" />
+                                      <option name="possibleAnswer" value="&quot;Welcome to SDD&quot;" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Solved" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="a boolean is simple True or False. Remember to capitalise the first letter" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="3" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="16" />
+                                      <option name="offset" value="141" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="type a bool here" />
                                       <option name="possibleAnswer" value="True" />
                                       <option name="selected" value="false" />
                                       <option name="status" value="Solved" />
@@ -171,6 +146,177 @@
                                   </list>
                                 </option>
                                 <option name="highlightErrors" value="true" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="MD" />
+                      <option name="descriptionText" value="# Variables&#10;&#10;Most programming tasks involve the manipulation of variables,&#10;which are names that refer to a value, but this value can change or vary&#10;&#10;In this code snippet:&#10;* line 1 assigns a value to the variable `firstVariable`&#10;* line 3 assigns a value to the variable `secondVariable`&#10;* line 4 changes the value of `firstVariable`&#10;* lines 3 and 5 outputs the value of `firstVariable` so you can see the change&#10;&#10;Edit the code so that the final value of `firstVariable` is equal to 42.&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="2" />
+                      <option name="name" value="Variables" />
+                      <option name="status" value="Solved" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="the two variables should add up to 42" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="16" />
+                                      <option name="offset" value="16" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="enter an integer" />
+                                      <option name="possibleAnswer" value="7" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Solved" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="the two variables should add up to 42" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="1" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="21" />
+                                      <option name="offset" value="56" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="enter another integer" />
+                                      <option name="possibleAnswer" value="35" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Solved" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;/html&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="3" />
+                      <option name="name" value="Operators" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;/html&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="4" />
+                      <option name="name" value="Functions" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
