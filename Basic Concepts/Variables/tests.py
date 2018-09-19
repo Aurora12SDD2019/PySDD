@@ -8,7 +8,7 @@ def test_answer_placeholders():
         placeholders = [eval(p) for p in placeholders] #placeholders are strings
         passed('eval')
     except ValueError:
-        failed('one or both variables are not numbers')
+        failed('there is something wrong with one or both variables')
 
 
     try:
@@ -18,7 +18,7 @@ def test_answer_placeholders():
             failed('the two variables to not add up to 42')
 
     except TypeError:
-        failed('One or both of your variables is a string or bool')
+        failed('one or both variables not number(s)')
 
 
 if __name__ == '__main__':

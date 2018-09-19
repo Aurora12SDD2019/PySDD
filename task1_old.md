@@ -48,7 +48,7 @@ In this example whenever you use the variable message it is exactly equivalent t
 
 Predict the output of the following code
 
-n = 2
+n = 2# Variables
 
 n = 2 * n
 
