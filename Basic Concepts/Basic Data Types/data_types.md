@@ -13,8 +13,8 @@ Strings are usially enclosed in quotation marks such as `"Hello World"`
 There are also more complex data types such as arrays and records
 but we will come to them later.
 
-> Replace the placeholders the template (type over them don't delete them)
-to create a program that prints outs an integer, a float, a string and a boolean.
+> Replace the word `None` in each line of the the template "data_types.py" with an integer,
+ a float, a string and a boolean.
 
 Remember only strings are enclosed in quotation marks. If you enclose any
 of the other types in quotation marks they will become strings.
@@ -24,5 +24,11 @@ Look for something that is underlined with a red squiggly line.
 
 And remember python is case sensitive so capitalisation
  matters in words like `True`.
+ 
+> Test the code by running it. If it doesn't run, read the output carefully 
+to find the errors and re-try until it runs successfully.
+
+> Test that the code has achieved the objectives of the task by running 
+"data_types_tests.py"
 
 

@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79bd20fd-fbe9-438b-8445-daba401648c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Concepts/Variables/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Concepts/Variables/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1_old.md" beforeDir="false" afterPath="$PROJECT_DIR$/task1_old.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic Concepts/Operators/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PySDDTest/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PySDD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PySDD.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic Concepts/Basic Data Types/task.md" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Concepts/Basic Data Types/data_types.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic Concepts/Basic Data Types/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Concepts/Basic Data Types/data_types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic Concepts/Basic Data Types/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Concepts/Basic Data Types/data_types_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic Concepts/Functions/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Concepts/Functions/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic Concepts/Operators/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Concepts/Operators/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic Concepts/Operators/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_helper.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,42 +25,45 @@
     <session id="1325626373">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
-          <entry key="Markdown" value="2" />
-          <entry key="Python" value="18" />
+          <entry key="HTML" value="2" />
+          <entry key="Markdown" value="3" />
+          <entry key="Python" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
-          <entry key="md" value="2" />
-          <entry key="py" value="18" />
+          <entry key="html" value="2" />
+          <entry key="md" value="3" />
+          <entry key="py" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="23" />
-          <entry key="Markdown" value="1765" />
-          <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="1604" />
+          <entry key="HTML" value="24" />
+          <entry key="Markdown" value="2104" />
+          <entry key="PLAIN_TEXT" value="42" />
+          <entry key="Python" value="6184" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="23" />
-          <entry key="md" value="1777" />
-          <entry key="py" value="1604" />
+          <entry key="dummy" value="30" />
+          <entry key="html" value="24" />
+          <entry key="md" value="2116" />
+          <entry key="py" value="6184" />
         </counts>
       </usages-collector>
     </session>
@@ -59,33 +71,48 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basic Concepts/Variables/task.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="187">
-                <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basic Concepts/Variables/tests.py">
+        <entry file="file://$PROJECT_DIR$/Basic Concepts/Basic Data Types/data_types.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            <state relative-caret-position="51">
+              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+              <folding>
+                <marker date="1537447060217" expanded="false" signature="240:693" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Basic Concepts/Variables/task.py">
-          <provider selected="true" editor-type-id="StudyEditor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <entry file="file://$PROJECT_DIR$/Basic Concepts/Basic Data Types/data_types.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="245">
+                <caret line="31" selection-start-line="31" selection-end-line="31" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basic Concepts/Basic Data Types/data_types_tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PySDDTest/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+              <folding>
+                <marker date="1537446760720" expanded="true" signature="1936:1941" ph="..." />
+                <marker date="1537446760720" expanded="true" signature="2364:2373" ph="..." />
+                <marker date="1537446760720" expanded="true" signature="2747:3204" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,6 +125,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>failed</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -122,6 +154,14 @@
         <option value="$PROJECT_DIR$/Basic Concepts/Variables/temp.py" />
         <option value="$PROJECT_DIR$/Basic Concepts/Variables/tests.py" />
         <option value="$PROJECT_DIR$/Basic Concepts/Variables/task.py" />
+        <option value="$PROJECT_DIR$/Basic Concepts/Operators/tests.py" />
+        <option value="$PROJECT_DIR$/Basic Concepts/Operators/test.py" />
+        <option value="$PROJECT_DIR$/Basic Concepts/Operators/task.py" />
+        <option value="$PROJECT_DIR$/Basic Concepts/Basic Data Types/data_types.md" />
+        <option value="$PROJECT_DIR$/Basic Concepts/Functions/task.html" />
+        <option value="$PROJECT_DIR$/PySDDTest/__init__.py" />
+        <option value="$PROJECT_DIR$/Basic Concepts/Basic Data Types/data_types_tests.py" />
+        <option value="$PROJECT_DIR$/Basic Concepts/Basic Data Types/data_types.py" />
       </list>
     </option>
   </component>
@@ -132,10 +172,50 @@
     <option name="height" value="1060" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Course" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PySDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PySDD" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PySDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PySDD" type="462c0819:PsiDirectoryNode" />
+              <item name="Basic Concepts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PySDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PySDD" type="462c0819:PsiDirectoryNode" />
+              <item name="Basic Concepts" type="462c0819:PsiDirectoryNode" />
+              <item name="Basic Data Types" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PySDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PySDD" type="462c0819:PsiDirectoryNode" />
+              <item name="Basic Concepts" type="462c0819:PsiDirectoryNode" />
+              <item name="Functions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PySDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PySDD" type="462c0819:PsiDirectoryNode" />
+              <item name="Basic Concepts" type="462c0819:PsiDirectoryNode" />
+              <item name="Operators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PySDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PySDD" type="462c0819:PsiDirectoryNode" />
+              <item name="PySDDTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Course">
         <subPane>
           <expand>
@@ -158,13 +238,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -178,7 +257,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.task">
+  <component name="RunManager" selected="Python.data_types_tests">
+    <configuration name="data_types_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PySDD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basic Concepts/Basic Data Types" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic Concepts/Basic Data Types/data_types_tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="task" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PySDD" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,6 +292,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic Concepts/Variables/task.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PySDD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basic Concepts/Operators" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic Concepts/Operators/task.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,28 +342,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Basic Concepts/Basic Data Types" type="ccruntests" factoryName="Run Study Tests" temporary="true">
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PySDD" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basic Concepts/Operators" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="studyTest" value="C:\Users\ggoldric\NSW Department of Education\OneDrive - NSW Department of Education\_Aurora2019\12SDD\PySDD\Basic Concepts\Basic Data Types\tests.py" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Basic Concepts/Functions" type="ccruntests" factoryName="Run Study Tests" temporary="true">
-      <module name="PySDD" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="studyTest" value="C:\Users\ggoldric\NSW Department of Education\OneDrive - NSW Department of Education\_Aurora2019\12SDD\PySDD\Basic Concepts\Functions\tests.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\ggoldric\NSW Department of Education\OneDrive - NSW Department of Education\_Aurora2019\12SDD\PySDD\Basic Concepts\Operators\test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Basic Concepts/Variables" type="ccruntests" factoryName="Run Study Tests" temporary="true">
@@ -258,33 +376,43 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.task" />
-      <item itemvalue="Run Study Tests.Basic Concepts/Functions" />
-      <item itemvalue="Run Study Tests.Basic Concepts/Variables" />
-      <item itemvalue="Run Study Tests.Basic Concepts/Basic Data Types" />
       <item itemvalue="Python.temp" />
+      <item itemvalue="Python.tests" />
+      <item itemvalue="Python.task" />
+      <item itemvalue="Python.data_types_tests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.data_types_tests" />
+        <item itemvalue="Python.tests" />
         <item itemvalue="Python.task" />
-        <item itemvalue="Run Study Tests.Basic Concepts/Variables" />
+        <item itemvalue="Python.task" />
         <item itemvalue="Python.temp" />
-        <item itemvalue="Run Study Tests.Basic Concepts/Basic Data Types" />
-        <item itemvalue="Run Study Tests.Basic Concepts/Functions" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79bd20fd-fbe9-438b-8445-daba401648c9" name="Default Changelist" comment="" />
+      <created>1537404428987</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537404428987</updated>
+    </task>
+    <servers />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="846" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14966443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14937212" />
       <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32945737" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36834735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -292,6 +420,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32945737" />
       <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32945737" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -302,93 +432,104 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Basic Concepts/Int, Float and Bool/task.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="374">
-            <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Concepts/Int, Float and Bool/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="29" lean-forward="true" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Concepts/Int, Float and Bool/task.py">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Concepts/Basic Data Types/task.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="221">
-            <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_helper.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Concepts/Functions/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Concepts/Basic Data Types/task.py">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Concepts/Basic Data Types/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Concepts/Int, Float and Bool/task.md" />
+    <entry file="file://$PROJECT_DIR$/Basic Concepts/Int, Float and Bool/tests.py" />
+    <entry file="file://$PROJECT_DIR$/Basic Concepts/Int, Float and Bool/task.py" />
     <entry file="file://$PROJECT_DIR$/Basic Concepts/Variables/temp.py" />
     <entry file="file://$PROJECT_DIR$/Basic Concepts/Variables/task.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="187">
-            <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Concepts/Variables/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Basic Concepts/Variables/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Concepts/Variables/task.py">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+    <entry file="file://$PROJECT_DIR$/Basic Concepts/Functions/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2431">
+          <caret line="143" column="18" selection-start-line="143" selection-start-column="12" selection-end-line="143" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Concepts/Operators/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Concepts/Functions/task.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Concepts/Operators/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PySDDTest/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+          <folding>
+            <marker date="1537446760720" expanded="true" signature="1936:1941" ph="..." />
+            <marker date="1537446760720" expanded="true" signature="2364:2373" ph="..." />
+            <marker date="1537446760720" expanded="true" signature="2747:3204" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Concepts/Basic Data Types/data_types_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Concepts/Basic Data Types/data_types.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+          <folding>
+            <marker date="1537447060217" expanded="false" signature="240:693" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Concepts/Basic Data Types/data_types.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="245">
+            <caret line="31" selection-start-line="31" selection-end-line="31" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
